@@ -1,0 +1,14 @@
+zookeeper
+
+1. Zookeeper 的功能，命名服务、服务配置、分布式锁、队列管理
+
+2. zookeeper 选举过程，zxid myid  , fast selection
+
+3. 分布式锁原理 curator
+
+4. zookeeper 主节点挂了要重新选举，可能导致服务不可用， Eureka 各个节点地位相同更适合做服务发现
+   ZK 侧重于CP，Euraka 侧重于AP 原则
+
+5. poxas 一致性协议， ZAB算法 zookeeper 使用该算法 ， reft 算法ETCD使用这个算法 ，都是poxas的一种实现
+
+6.ZK 节点的状态

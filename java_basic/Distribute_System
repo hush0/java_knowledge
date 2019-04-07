@@ -1,0 +1,31 @@
+分布式系统
+
+1. 分布式系统设计的目的是处理复杂的单节点无法处理的问题
+
+
+2. 分布式锁
+
+   (1) redis   (2) zookeeper
+
+
+3. 分布式主键（id）， uuid   snowflake算法 ，发号器（单节点从发号组建取一串号码，然后在应用中使用）， 起始ID相邻设置相同步长（难以扩展）
+
+
+4. 分布式session , IP hash (IP 重新分配后回话丢失) ， session复制 tomcat集群支持， session共享例如将session存储到redis
+
+5. 分布式事务  XA（事务管理器）  ，2PC  3PC  MQ实现的分布式事务（rocketMQ支持）
+
+6. 分布式日志追踪 traceID spanid 追踪系统间复杂的调用关系（阿里的鹰眼Tracing、京东的Hydra），Http 调用时traceid spanid 会存在请求头里
+   RPC调用时会在序列化时做处理，例如thrift 调用
+
+7. 日志聚合，kafka , ElasticSearch
+
+8. 分布式系统服务治理， 嘀嘀disf ,spring Cloud 使用hystrix组件完成服务熔断、降级、资源隔离
+
+9. 数据库垂直切分，将数据更新不太频繁的表例如业务配置表、权限表拆分到另一个数据库，将核心业务（例如支付、订单表）放到一个数据库中降低该库读写压力
+   数据库水平切分，核心业务表数据量太庞大时，使用一致性hash将数据拆到不同的子表中，避免一致性hash导致的数据偏移（中间添加虚拟节点）
+   数据量特别大的表（例如淘宝的订单表），往往水平切分后再按日期切分历史数据（mycat shardingJDBC）
+
+
+
+
