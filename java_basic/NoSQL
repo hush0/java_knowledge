@@ -1,0 +1,19 @@
+（1). redis
+
+1. redis 数据类型  string  list set hash  zset ,每个类型适用场景
+
+2. SDS 底层源码，二进制安全，动态内存分配，惰性收缩， 最大大小 512M ，Zset 底层跳表....
+
+3. redis 为什么快， IO多路复用 epoll模型请求转换为事件异步处理， 线程封闭模型避免了锁争抢，数据存储在内存响应事件毫秒级
+
+4. redis  主从、 哨兵、集群 各解决了什么问题，优缺点是什么？
+
+5  redis 持久化 RDB AOF ， AOF压缩过程，redis 主从同步过程（增量复制，全量复制）
+
+6  redis 分布式锁 加锁解锁，  redis 事务（mult  excute），事务特点  watch
+
+7  pipeline 同时处理多个命令， lua 脚本保持命令原子性
+
+8  redis 内存淘汰策略，主动（ttl fifo LRU ） +  惰性回收
+
+9  redis 存储数据的过程 1.连接 ，redis序列化协议，gossip

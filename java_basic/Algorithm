@@ -1,0 +1,21 @@
+1. quicksort(手写)  heapsort  mergesort
+
+2. singleTon(手写)  懒汉、恶汉
+
+3. B+ 树
+
+4.红黑树  AVL 平衡过程，距离说明平衡的过程
+
+5.hash 树
+
+6.skiplist
+
+7.拓扑排序
+
+8.Folyed 算法
+
+9. KMP 算法，模式匹配
+
+10.dijkstra 算法
+
+11. 动态规划 （最长公共子序列，最长公共字串问题）

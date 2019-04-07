@@ -1,0 +1,35 @@
+1. byte short int long  float  double  boolean char   所占字节数，表示范围、精度
+
+2. Integer Long  包装类 ==  equals 判断，看底层源码
+
+3. java 类文件   加载--验证--准备--解析--初始化--使用--销毁
+
+4. class 文件结构，常用编译指令 invoke staic , invoke virtual ....
+
+5. 类加载机制看源码，双亲委派，为什么这么做(安全性考虑)，类加载机制能干什么(加载网络传输的class文件，加密源码等)
+
+6. JDK1.8 比 1.7 有哪些新特性， stream lamda  interface Function   optional   localdate
+
+7. ThreadLocal 是怎么存储的，threadlocalmap 是用的什么结构， 线性探测再散列处理hash冲突
+
+8. volitale  保证可见性，防止指令重排序，  hapen before 原则，底层指令调用顺序
+
+9. cas  ABA 问题
+
+10. 线程池核心参数，调度机制，四种拒绝策略，如何优雅关闭线程池(shutdown  shutdownnow  awaitTerminal)，常见四类线程池实现， 单一  定长 可缓存  执行周期任务线程池
+    四类线程池参数有大概了解,手写一个任务提交到线程池，例如执行周期任务线程池 底层使用延迟队列来实现
+
+11. callable  runable  Thread  区别 , 使用
+
+12. sychnorize(内置锁，对象头文件 )    lock(AQS框架实现的锁，state CLH队列底层源码，公平锁非公平锁实现，读写锁源码)
+
+13. java 线程同步方式  共享内存(加锁保证数据一致性) 、 pipeline 、消息
+
+14. Java 常用命令 jmap 导出堆内存快照   jstack 导出栈运行信息  jhat分析堆快照问价  jps 查看Java进程信息  jstata 可以导出GC信息  jdoc  ....
+
+15.  J2ME J2SE J2EE
+
+
+
+
+
