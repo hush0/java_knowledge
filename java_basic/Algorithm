@@ -1,6 +1,6 @@
 1. quicksort(手写)  heapsort  mergesort
 
-2. singleTon(手写)  懒汉、恶汉
+2. singleTon(手写)  懒汉、饿汉
 
 3. B+ 树
 
@@ -23,3 +23,5 @@
 12. 链表反转（递归 . 非递归手写）
 
 13. 二叉树，前序 中序 后序遍历（递归非递归） 层次遍历
+
+14. 图遍历 BFS DFS

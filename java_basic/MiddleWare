@@ -1,0 +1,32 @@
+
+1. Loadbalance    nginx 轮询  iphash  weight等方式 , 工作在应用层，能支持数万并发，支持http https email协议，使用配置简单
+                  LVS(linux virtual server)  vip提供虚拟IP地址,工作在传输层，无返回流量IO不受影响，适应性强，实施复杂，常见
+                                             有三种模式NAT 网络地址转换，改变源IP 走流量， IP tunell 添加IP头，直接返回，
+                                             DR 直接路由改变MAC直接返回
+                  Haproxy  支持虚拟主机
+                  F5       硬件负载均衡
+
+2. redis   主从模式， 哨兵模式， 集群模式。 了解各个模式解决的问题，主从解决数据备份，哨兵解决单节点故障问题，集群处理单机热点
+           问题用于大数据量分布式系统， 各个模式下数据同步过程，数据持久化过程，AOF日志压缩过程，redis数据淘汰策略（主动+被动模式）
+           ，redis是如何处理大并发的（epoll通讯模型， IO多路复用，事件机制，线程封闭，数据存储在内存可高速读取），了解redis数据类型
+           底层的实现例如 String 类型底层事项 SDS（简单动态字符串），如何做到二进制安全，内存如何动态分配，惰性收缩.... ,Zset 底层
+           使用的调表等，单个数据最大存储512M， 了解redis set命令执行的整个过程。
+
+           redis  各种数据类型使用场景，事务（watch mult  excute）,分布式锁，管道 ，scan游标
+
+3  zookeeper 提供的功能命名服务，服务配置，分布式锁，队列管理
+             poxas一致性协议，以及相关实现Reft(ETCD)、ZAB(zookeeper)
+             zookeeper（CAP 侧重CP），主节点挂了，会导致服务不可用，要重新选举
+             选举过程，zxid ,myid , fastSelection
+             zookeeper 实现分布式锁原理
+
+
+4. dubbo   thrift  RMI  RPC中间件与 http  webservice 对比
+
+
+5. netty io通讯模型，
+
+
+6. MQ 消息队列功能 解耦、消峰
+
+

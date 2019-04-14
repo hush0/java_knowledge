@@ -8,7 +8,7 @@
 
 5. 类加载机制看源码，双亲委派，为什么这么做(安全性考虑)，类加载机制能干什么(加载网络传输的class文件，加密源码等)
 
-6. JDK1.8 比 1.7 有哪些新特性， stream lamda  interface Function   optional   localdate
+6. JDK1.8 比 1.7 有哪些新特性， stream lamda  interface Function   optional   localdate ...
 
 7. ThreadLocal 是怎么存储的，threadlocalmap 是用的什么结构， 线性探测再散列处理hash冲突, key 使用弱引用方便回收
 
@@ -28,6 +28,15 @@
 14. Java 常用命令 jmap 导出堆内存快照   jstack 导出栈运行信息  jhat分析堆快照问价  jps 查看Java进程信息  jstata 可以导出GC信息  jdoc  ....
 
 15.  J2ME J2SE J2EE
+
+16. java 异常类继承关系 throwable  error  exception ...
+
+17. java 集合类 list set map 相关类的实现， 集合遍历（iterator  for  stream）
+
+18. java 创建对象方式 new  clone  反序列化 ..
+
+19  java 序列化  hissan  protobuf
+
 
 
 

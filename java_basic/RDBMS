@@ -8,9 +8,9 @@
 
 4. myisam  inodb 索引的区别， innodb 主键索引存一整条记录， 辅助索引存储辅助索引字段和主键 ，主键索引是聚合索引，索引用B+树的原因（IO ，效率）
 
-5、SQL 优化 ，慢查询日志 。   explain了解执行计划里的个字段的含义，什么时候需要优化  ， profile
+5、SQL 优化 ，慢查询日志 。   explain了解执行计划里的个字段的含义，什么时候需要优化  ， profile ，SQL 语句优化
 
-6、SQL 语句解析步骤  from jion on where  groupby having select  distinct order limit
+6、SQL 语句解析步骤  from on join where  groupby with having select  distinct order limit
 
 7、MySQL where 条件从左到右匹配，oracle where 条件从右到左
 

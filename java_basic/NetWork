@@ -1,0 +1,16 @@
+
+1.计算机通讯7层模型，各个层使用到的网络协议
+
+2. http 协议request line ,request header ,resuest body ， 响应报文 response header ,response body 各部分数据
+   http三次握手，四次挥手交互图，记住各阶段状态。
+
+3. https 与 http 协议的区别 ，1）https= http + ssl 数据加密传输（非对称+对称加密）是安全的 ，http 需要购买证书是收费的
+                             2）https 使用端口443, http 使用80端口
+                             3）
+4. http 协议如何做到流量控制（滑动窗口+确认）拥塞控制（慢启动+加法递增乘法递减+阈值），了解失败重传机制
+
+5. http 处理sync flood 攻击 ，前端接入防火墙。 1）防火墙缩短Sync timeout时间，增大半连接数量 2）firewall 将sync 转发给后端应用，再发一个ack响应
+   3）firewall 不转发sync请求给后端，之后和防火墙建立完整连接后，才将数据请求转发各后端服务器。
+
+
+6.

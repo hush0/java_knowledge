@@ -13,7 +13,7 @@
 
 4. 分布式session , IP hash (IP 重新分配后回话丢失) ， session复制 tomcat集群支持， session共享例如将session存储到redis
 
-5. 分布式事务  XA（事务管理器）  ，2PC  3PC  MQ实现的分布式事务（rocketMQ支持）
+5. 分布式事务  XA（事务管理器） TCC ，2PC  3PC  MQ实现的分布式事务（rocketMQ支持）
 
 6. 分布式日志追踪 traceID spanid 追踪系统间复杂的调用关系（阿里的鹰眼Tracing、京东的Hydra），Http 调用时traceid spanid 会存在请求头里
    RPC调用时会在序列化时做处理，例如thrift 调用

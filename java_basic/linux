@@ -1,0 +1,11 @@
+
+
+1. 查看Java 线程  ps -ef|grep java |grep -v "grep"| awk {print $2}
+
+2. jps jstat jutil jstack jhat jmap jinfo
+
+3. 文件传输 FTP　scp  psync
+
+4. linux  epoll 模型惊群效应如何处理
+
+5.
