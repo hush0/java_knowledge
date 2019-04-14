@@ -1,0 +1,13 @@
+项目构建工具
+
+1. maven
+   maven 生命周期
+   setting 文件结构
+   maven 仓库搭建
+  jar 冲突处理, exclude，profile 隔离环境
+  常用maven插件
+
+
+
+
+2.gradle

@@ -10,7 +10,7 @@
 
 6. JDK1.8 比 1.7 有哪些新特性， stream lamda  interface Function   optional   localdate
 
-7. ThreadLocal 是怎么存储的，threadlocalmap 是用的什么结构， 线性探测再散列处理hash冲突
+7. ThreadLocal 是怎么存储的，threadlocalmap 是用的什么结构， 线性探测再散列处理hash冲突, key 使用弱引用方便回收
 
 8. volitale  保证可见性，防止指令重排序，  hapen before 原则，底层指令调用顺序
 

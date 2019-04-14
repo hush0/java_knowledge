@@ -1,0 +1,7 @@
+版本控制系统
+
+1. SVN ，CVS 传统的版本控制工具，需要联网才能提交，不支持分支管理
+
+2  git 分布式版本控制工具，支持本地提交
+
+      git 常见命令  git log , git merge  git rebase 区别   reset

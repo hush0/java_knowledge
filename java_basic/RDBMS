@@ -1,4 +1,4 @@
-1.  基础SQL语句  unnion   union all 区别，（去重，排序）  ， left join on  ,where 区别, 查询学生科目平均成绩
+1. 基础SQL语句  unnion   union all 区别，（去重，排序）  ， left join on  ,where 区别, 查询学生科目平均成绩
 
 2. 数据库 ACID 、  RU  RC  RR  S  隔离级别，常见事务传播范围，ACID是如何保证的 redolog undolog ，数据库范式
 
